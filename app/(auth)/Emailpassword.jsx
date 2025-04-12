@@ -13,7 +13,7 @@ const ForgotPasswordScreen = () => {
         Alert.alert("Error", "Please enter your email address.");
         return;
     }
-// Test 
+// Test comment
     try {
         setLoading(true);
         const response = await axios.post("https://popularizenode.apdux.tech/api/confirmemail", {
